@@ -19,4 +19,4 @@ let CategorizeRisk = (risk_score: int) {
 
 // Use the function in a query
 Patient_Analysis 
-| extend RiskCategory = CategorizeRisk(ChronicConditionRiskScore)
+| extend RiskCategory = CategorizeRisk(ChronicConditionRiskScore)  
