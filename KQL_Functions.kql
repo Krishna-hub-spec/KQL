@@ -18,5 +18,5 @@ let CategorizeRisk = (risk_score: int) {
 };
 
 // Use the function in a query
-Patient_Analysis
+Patient_Analysis 
 | extend RiskCategory = CategorizeRisk(ChronicConditionRiskScore)
